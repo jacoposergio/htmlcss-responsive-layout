@@ -66,12 +66,41 @@ nav{
 
 @media screen and (min-width: 768px) {
     
-.intro-col{
-    width: calc(100%/3);
+
+/* MAIN   */
+
+/* distanziamento colonne col primo metodo   */
+
+
+/* .intro-col{
+    width: calc( (100% / 3) - 1rem);
 }
 
 .intro-col:first-child{
-    width: calc((100%/3)*2);
+    width: calc( ( (100% / 3 ) * 2) - 0.5rem);
+    margin-right: 1.5rem;
+}
+
+.intro-col:nth-child(4){
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+} */
+
+        .intro-columns{
+            margin-left: -1rem;
+            margin-right: -1rem,;
+        }
+
+        .intro-col{
+            width: calc(100%/3);
+            padding: 0 1rem;
+        }
+
+        .intro-col:first-child{
+            width: calc( ( (100% / 3 ) * 2));
+        }
+
+
 }
 
 
