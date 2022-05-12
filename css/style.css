@@ -92,7 +92,12 @@ nav{
             border: 1px solid red;
         }
 
+  /* benefits        */
 
+  .benefits-col{
+     border: 1px solid blue;
+
+  }
 
 /* //////////////////////////////////////////////////////////// */
 /* ////////// TABLET //////////// */
@@ -152,6 +157,21 @@ nav{
   .testimonials-text{
     width: calc( (100% / 3) * 2);
 }
+
+
+/* benefits  */
+
+.benefits-columns{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+
+}
+
+.benefits-col{
+     width: calc( ( 100% / 2 ) - 1rem  );
+}
+
 
 
 
