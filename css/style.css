@@ -1,3 +1,86 @@
-body{
-    background-color: aliceblue;
+   
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+/* COMMON  */
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.mobile-padding{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+/* ///////////////HEADER ///////////////  */
+
+header{
+    height: 80px;
+    background-color: lightblue;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.main-menu{
+    display: none;
+}
+
+
+/* MAIN  */
+
+    section{
+    padding-top: 3rem; 
+     padding-bottom: 3rem;
+    background-color: rgb(19, 226, 105);
+}
+
+.intro-columns{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intro-col{
+    width: 100%;
+    border: 1px solid blue;
+}
+
+
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* ////////  DESKTOP  /////////////  */
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+@media screen and (min-width: 992px) {
+    
+   /* HEADER   */
+
+     .main-menu{
+         display: block;
+     }
+
+     .burger-button{
+         display: none;
+     } 
+
+
+
+
+
+
+}
+
+
+/* ////////// TABLET //////////// */
