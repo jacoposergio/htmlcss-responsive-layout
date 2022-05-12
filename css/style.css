@@ -12,6 +12,11 @@
     margin: 0 auto;
 }
 
+.container-small{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 .mobile-padding{
     padding-left: 2rem;
     padding-right: 2rem;
@@ -172,8 +177,20 @@ nav{
      width: calc( ( 100% / 2 ) - 1rem  );
 }
 
+/* about us  */
 
+.about-us-col{
+    display: flex;
+}
 
+.about-us-text{
+  width: calc( (100% / 3) *2);
+}
+
+.about-us-img{
+    width: calc( (100% / 3) *1);
+}
+    
 
 
 
@@ -218,9 +235,15 @@ nav{
 
    .strategy-col{
     width: calc(50% - 1rem)
+   }
 
-    
-}
+   /* benefits  */
+
+
+   .benefits-col{
+    width: calc( ( 100% / 3 ) - 2rem  );
+   }
+
 
 
 
