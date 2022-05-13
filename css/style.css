@@ -13,7 +13,6 @@ body{
     font-family: 'PT Sans', sans-serif;
 }
 
-
 .container{
     max-width: 1170px;
     margin: 0 auto;
@@ -29,6 +28,12 @@ body{
     padding-left: 4rem;
     padding-right: 4rem;
 }
+
+.card-padding{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
 
 img{
     width: 100%;
@@ -51,6 +56,20 @@ ul{
     list-style-type: none;
     
 }
+
+/* TEXT SIZE AND PADDING   */
+
+h2{
+    font-weight: 700;
+    font-size: 2.1rem;
+    color: blue;
+    padding: 1.5rem 0;
+}
+
+p{
+    font-size: 1.7rem;
+}
+
 
 
 /* ///////////////HEADER ///////////////  */
@@ -93,6 +112,8 @@ nav .logo{
     background-color: rgb(19, 226, 105);
 }
 
+/* intor  */
+
 .intro-columns{
     display: flex;
     flex-wrap: wrap;
@@ -102,6 +123,18 @@ nav .logo{
     width: 100%;
     border: 1px solid blue;
 }
+
+.intro-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-card h2{
+
+}
+
+
 
 /* strategy  */
 
@@ -291,6 +324,7 @@ nav .logo{
    .strategy-col{
     width: calc(50% - 1rem)
    }
+
 
    /* benefits  */
 
