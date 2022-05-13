@@ -7,6 +7,11 @@
 
 /* COMMON  */
 
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+
 .container{
     max-width: 1170px;
     margin: 0 auto;
@@ -27,11 +32,20 @@ img{
     width: 100%;
 }
 
+.btn{
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
 
 /* ///////////////HEADER ///////////////  */
 
 header{
-    height: 80px;
+    height: 60px;
     background-color: lightblue;
     color: white;
 }
@@ -43,8 +57,18 @@ nav{
     height: 100%;
 }
 
+nav .logo{
+    width: 4rem;
+    padding-top: 0.2rem;
+}
+
 .main-menu{
     display: none;
+}
+
+.burger-button{
+    font-size: 1.4rem;
+    padding-bottom: 2px;
 }
 
 
