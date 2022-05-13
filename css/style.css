@@ -34,6 +34,11 @@ body{
     padding-right: 4rem;
 }
 
+.card-padding-small{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
 img{
     width: 100%;
 }
@@ -62,6 +67,9 @@ ul{
     border-radius: 3rem;
 }
 
+.rounded-container-small{
+    border-radius: 1.5rem;
+}
 
 /* TEXT SIZE AND PADDING   */
 
@@ -285,11 +293,6 @@ nav .logo{
 
 }
 
-.testimonials-columns{
-   
-
-}
-
 
 /* grandezza virgolette   */
 .testimonials-columns span{
@@ -302,10 +305,93 @@ nav .logo{
 
   /* benefits        */
 
+ 
   .benefits-col{
-     border: 1px solid blue;
-
+     background-color: white;
+     margin-bottom: 1.5rem;
+     display: flex;
+     flex-direction: column;
+     align-items: start;
   }
+
+  .benefits-intro{
+      color: white;
+      text-align: center;
+      margin-bottom: 1.5rem;
+  }
+
+  .benefits-intro h2{
+      color: white;
+  }
+
+ .benefits-number{
+      color: #0084fd;
+      font-size: 2.5rem;
+      margin: 1rem 0 ;
+  }
+
+  .benefits-title{
+    color: #0084fd;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+ .benefits-col .btn{
+     color: white;
+     background-color: #0084fd;
+     padding: 0.4rem 2.5rem;
+     margin: 1.5rem 0;
+ }
+
+ /* About us   */
+
+.about-us-profile-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about-us-img-container{
+    position: relative;
+}
+
+ .about-us-img{
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
+    background-color: pink;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 1.5rem;
+}
+
+.about-us-img img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.quote-on-image{
+    font-size:  4rem;
+    color: #0084fd;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
+
+.about-us-profile-content h4{
+    color: #0084fd;
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.about-us-profile-content .btn{
+    color: white;
+    background-color: #0084fd;
+    padding: 0.4rem 1rem;
+    margin: 1.5rem 0; 
+}
+
+
 
 
   /* FOOTER   */
@@ -422,9 +508,10 @@ nav .logo{
 
         .about-us-text{
         width: calc( (100% / 3) *2);
+        padding: 0 2rem;
         }
 
-        .about-us-img{
+        .about-us-profile-content{
             width: calc( (100% / 3) *1);
         }
             
