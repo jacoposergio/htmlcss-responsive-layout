@@ -34,17 +34,15 @@ body{
     padding-right: 4rem;
 }
 
-
 img{
     width: 100%;
 }
 
 .btn{
-    color: black;
+    color: #333333;
     background-color: rgb(255, 255, 255);
     padding: 0.3rem 1rem;
     border-radius: 1.3rem;
-    vertical-align: middle;
 }
 
 a{
@@ -54,7 +52,10 @@ a{
 
 ul{
     list-style-type: none;
-    
+}
+
+.background-colored{
+    background-color: #9792e4;
 }
 
 /* TEXT SIZE AND PADDING   */
@@ -62,12 +63,13 @@ ul{
 h2{
     font-weight: 700;
     font-size: 2.1rem;
-    color: blue;
+    color: #0084fd;
     padding: 1.5rem 0;
 }
 
 p{
-    font-size: 1.7rem;
+    font-size: 1.3rem;
+    color: #333333;
 }
 
 
@@ -76,7 +78,7 @@ p{
 
 header{
     height: 60px;
-    background-color: lightblue;
+    background-color: #0084fd;
     color: white;
 }
 
@@ -104,7 +106,7 @@ nav .logo{
 }
 
 
-/* MAIN  */
+/* |||||||||||   MAIN  |||||||||||||||||||||||   */
 
     section{
     padding-top: 3rem; 
@@ -112,7 +114,7 @@ nav .logo{
     background-color: rgb(19, 226, 105);
 }
 
-/* intor  */
+/* intro  */
 
 .intro-columns{
     display: flex;
@@ -122,24 +124,58 @@ nav .logo{
 .intro-col{
     width: 100%;
     border: 1px solid blue;
+    margin-bottom: 3rem;
+    display: flex;
 }
 
 .intro-card{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #b5ddff;
+    border-radius: 2rem;
 }
 
-.intro-card h2{
+.intro-card.large{
+   justify-content: space-between;
+}
+
+
+.btn.apple{
+    background-color: #0084fd;
+    color: white;
+    padding: 0.4rem 4rem;
+    border-radius: 1.5rem;
+    margin: 1.5rem 0;
 
 }
+
+    .intro-card .apple-logo{
+        margin-right: 10px;
+    }
+
+    .intro-logo-big{
+        color: #0084fd;
+        font-size: 9rem;
+        padding-top: 1.5rem;
+    }
+
+       .intro-col.icons h2{
+        padding-top: 0.7rem ;
+        }
+
+        .intro-col.icons p{
+            text-align: center;
+            padding-bottom: 2rem;
+        }
 
 
 
 /* strategy  */
 
 #strategy{
-    background-color: azure;
+    
 }
 
 
@@ -149,9 +185,56 @@ nav .logo{
 }
 
 .strategy-col{
+    padding-top: 3rem;
     width: 100%;
     border: 1px solid red;
 }
+
+.strategy-col.second-card{
+    background-color: white;
+    border-radius: 4rem;
+}
+
+.strategy-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.first-card .strategy-text{
+    text-align: start;
+}
+
+
+.strategy-text.first-card h2{
+    color: white;
+    align-self: start
+}
+
+.strategy-text.first-card p{
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.strategy-col.second-card .strategy-text{
+    padding: 0 2rem;
+}
+
+.strategy-col.second-card h2{
+    color: black;
+}
+
+.circle-arrow{
+    font-size: 1.5rem;
+    background-color: #0084fd;
+    width: 3rem;
+    height: 3rem;
+    padding: 6px 6px;
+    border-radius: 50%;
+    margin: 3rem 0;
+}
+
 
 /* testimonials  */
 
@@ -210,6 +293,8 @@ nav .logo{
             margin-right: 1.5rem;
         } */
 
+           /* Intro  */
+
                 .intro-columns{
                     margin-left: -1rem;
                     margin-right: -1rem,;
@@ -223,6 +308,17 @@ nav .logo{
                 .intro-col:first-child{
                     width: calc( ( (100% / 3 ) * 2));
                 }
+
+                .intro-card h2{
+                  text-align: center;
+                }
+
+                .intro-col.icons .intro-card{
+                   align-self: stretch;
+                }
+        /* strategy   */
+
+    
         
         /* testimonials   */
 
@@ -324,6 +420,20 @@ nav .logo{
    .strategy-col{
     width: calc(50% - 1rem)
    }
+
+   .strategy-col.first-card{
+       display: flex;
+       flex-direction: column;
+      justify-content: space-between;   
+        }
+
+        .first-card h2{
+            margin-bottom: 2rem;
+        }
+
+       .strategy-col.second-card{
+        margin-top: 8rem;
+       }
 
 
    /* benefits  */
