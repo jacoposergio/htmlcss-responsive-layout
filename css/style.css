@@ -126,7 +126,6 @@ nav .logo{
     section{
     padding-top: 3rem; 
      padding-bottom: 3rem;
-    background-color: rgb(19, 226, 105);
 }
 
 /* intro  */
@@ -138,7 +137,6 @@ nav .logo{
 
 .intro-col{
     width: 100%;
-    border: 1px solid blue;
     margin-bottom: 3rem;
     display: flex;
 }
@@ -197,7 +195,6 @@ nav .logo{
 .strategy-col{
     padding-top: 3rem;
     width: 100%;
-    border: 1px solid red;
 }
 
 .strategy-col.second-card{
@@ -253,7 +250,6 @@ nav .logo{
     width: 200px;
     height: 200px;
     max-width: 200px;
-    background-color: pink;
     border-radius: 50%;
     overflow: hidden;
 }
@@ -299,9 +295,7 @@ nav .logo{
     font-size: 1.3rem;
 }
 
-        .testimonials-col{
-            border: 1px solid red;
-        }
+
 
   /* benefits        */
 
@@ -359,7 +353,6 @@ nav .logo{
     width: 200px;
     height: 200px;
     max-width: 200px;
-    background-color: pink;
     border-radius: 50%;
     overflow: hidden;
     margin-top: 1.5rem;
@@ -388,18 +381,52 @@ nav .logo{
     color: white;
     background-color: #0084fd;
     padding: 0.4rem 1rem;
-    margin: 1.5rem 0; 
+}
+
+/* get started   */
+
+.get-started-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.get-started-container h2{
+    color: yellow;
+}
+
+.get-started-container h3{
+    color: white;
+}
+
+.get-started-container .btn{
+    font-weight: 600;
+    color: #0084fd;
+    padding-top: 0.5rem 3rem;
+    margin: 1rem 0;
+}
+
+.get-started-container h5{
+    color: white;
 }
 
 
-
-
   /* FOOTER   */
+
+  footer{
+      background-color: #333333;
+  }
 
   .mobile-padding-footer{
     padding-left: 5rem;
     padding-right: 5rem;
 }
+
+ .footer-container h6{
+     color: white;
+ }
 
 /* //////////////////////////////////////////////////////////// */
 /* ////////// TABLET //////////// */
@@ -451,9 +478,6 @@ nav .logo{
                 .intro-col.icons .intro-card{
                    align-self: stretch;
                 }
-        /* strategy   */
-
-    
         
         /* testimonials   */
 
@@ -515,8 +539,6 @@ nav .logo{
             width: calc( (100% / 3) *1);
         }
             
-
-
 }
 
 
